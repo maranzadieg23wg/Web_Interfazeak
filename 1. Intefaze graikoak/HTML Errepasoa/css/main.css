@@ -1,0 +1,12 @@
+#menua{
+    background-color: rgb(63, 63, 63);
+    padding: 0.5rem;
+    
+}
+
+#menua a{
+    text-decoration: none;
+    color: white;
+    margin-right: 1rem;
+    text-align: center;
+}
