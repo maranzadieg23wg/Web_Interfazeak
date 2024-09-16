@@ -1,3 +1,6 @@
+div{
+    margin-bottom: 2rem;
+}
 #menua{
     background-color: rgb(63, 63, 63);
     padding: 0.5rem;
@@ -21,5 +24,9 @@
 
 #ang{
     text-align: center;
-    text-decoration: solid;
+    font-weight: bold;
+}
+
+#taula table{
+    width: 10%;
 }
