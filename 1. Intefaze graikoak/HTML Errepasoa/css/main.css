@@ -10,3 +10,16 @@
     margin-right: 1rem;
     text-align: center;
 }
+
+#irudiZona{
+    display: flex;
+}
+
+#lurra{
+    padding-right: 20rem;
+}
+
+#ang{
+    text-align: center;
+    text-decoration: solid;
+}
