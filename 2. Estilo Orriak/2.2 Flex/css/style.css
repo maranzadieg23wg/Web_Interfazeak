@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+}
+.header{
+    text-align: center;
+    background-color: rgb(218, 107, 107);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+}
+
+
+.nav{
+    
+    background-color: rgb(0, 132, 255);
+    
+    padding: 1rem;
+
+    
+    
+}
+
+.ul{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    list-style: none;
+    
+    
+}
+
+.ul a {
+    text-decoration: none;
+    color: white;
+    margin-right: 1rem;
+    text-align: right;
+}
