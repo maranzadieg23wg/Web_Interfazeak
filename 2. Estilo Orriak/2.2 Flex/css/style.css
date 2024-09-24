@@ -121,6 +121,14 @@ FOOTER
         background-color: rgb(245, 245, 139);
         padding-right: 1.5rem;
     }
+
+    .column{
+        width: 100%;
+    }
+    .column img{
+        
+        width: 100%;
+    }
 }
 
 
