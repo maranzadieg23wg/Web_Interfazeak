@@ -108,4 +108,19 @@ FOOTER
 }
 
 
+@media screen and (max-width: 1200px) {
+    .section{
+        background-color: rgb(245, 245, 139);
+        padding-right: 2rem;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .section{
+        background-color: rgb(245, 245, 139);
+        padding-right: 1.5rem;
+    }
+}
+
 
