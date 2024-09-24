@@ -63,6 +63,8 @@ body{
 
 .aside{
     background-color: #ffafcc;
+
+    width: 100%;
 }
 
 
@@ -74,6 +76,10 @@ IMG
 .row{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+
+    flex-wrap: wrap;
+    
 }
 
 .column{
@@ -81,6 +87,7 @@ IMG
     flex-direction: column;
 
     padding: 1.2rem;
+    width: 30%;
 }
 
 .column img{
