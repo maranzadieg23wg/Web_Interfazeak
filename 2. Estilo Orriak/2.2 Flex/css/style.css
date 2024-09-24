@@ -64,3 +64,27 @@ body{
 .aside{
     background-color: #ffafcc;
 }
+
+
+
+/*****************************************************************************************************
+IMG
+/****************************************************************************************************/
+
+.row{
+    display: flex;
+    flex-direction: row;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+
+    padding: 1.2rem;
+}
+
+.column img{
+    margin: 1rem;
+    /*height: auto;*/
+    width: 100%;
+}
