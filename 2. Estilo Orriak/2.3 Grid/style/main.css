@@ -1,0 +1,155 @@
+*{
+    background-color: #f4f4f4;
+}
+/*
+---------------------------------------------------------------------------------------------
+GENERAL
+---------------------------------------------------------------------------------------------
+*/
+body {
+    display: grid;
+    grid-template-rows: auto auto 1fr auto;
+    grid-template-columns: 1fr;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/*
+---------------------------------------------------------------------------------------------
+HEADER
+---------------------------------------------------------------------------------------------
+*/
+#header {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    border: 1px solid black;
+    padding: 1rem;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#header a {
+    text-decoration: none;
+    font-size: 36px;
+    color: black;
+    font-weight: bold;
+    justify-self: center;
+}
+
+#header img {
+    border-radius: 100%;
+    box-shadow: 5px 10px 10px;
+    height: auto;
+    width: 4rem;
+}
+
+/*
+---------------------------------------------------------------------------------------------
+MENUA
+---------------------------------------------------------------------------------------------
+*/
+
+#menua {
+    /*display: grid;*/
+    grid-template-columns: repeat(5, 1fr);
+    margin-left: 35%;
+    justify-items: center;
+    border: 1px solid black;
+    padding: 0.5rem 0;
+}
+
+#menua a {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    border: 1px solid black;
+    padding: 0.5rem 1rem;
+    font-size: 18px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#menua a:hover {
+    background-color: rgb(255, 133, 133);
+    color: white;
+}
+
+/*
+---------------------------------------------------------------------------------------------
+GORPUA
+---------------------------------------------------------------------------------------------
+*/
+
+#gorpua {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    border: 1px solid black;
+    padding: 1rem;
+}
+
+#gorpua h2 {
+    text-align: center;
+}
+
+#gorpua p {
+    margin: 0.75rem;
+}
+
+/*
+---------------------------------------------------------------------------------------------
+INICIO
+---------------------------------------------------------------------------------------------
+*/
+
+#inicio {
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: #f4f4f4;
+}
+
+#inicio img {
+    display: block;
+    margin: 0 auto;
+}
+
+/*
+---------------------------------------------------------------------------------------------
+ESKUBI (NOTICIAS Y VIDEO)
+---------------------------------------------------------------------------------------------
+*/
+
+#eskubi {
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 20px;
+
+    border: 1px solid black;
+}
+
+
+#noticias,
+#video {
+    padding: 1rem;
+    background-color: #f4f4f4;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+
+/*
+---------------------------------------------------------------------------------------------
+FOOTER
+---------------------------------------------------------------------------------------------
+*/
+
+#footer {
+    text-align: center;
+    font-size: 36px;
+    border: 1px solid black;
+    padding: 0.5rem;
+}
