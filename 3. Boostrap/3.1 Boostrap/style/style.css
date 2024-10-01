@@ -18,4 +18,42 @@ body{
 
     max-width: 3rem;
     max-height: 3rem;
+
+    background-color: white;
+}
+
+.nav-link{
+    color: #596e6e;
+}
+
+
+.btn-primary{
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: #3e5151;
+}
+
+.btn-primary:hover{
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+
+    color: black;
+}
+
+.btn{
+    border-color: #3e5151;
+}
+
+.btn:hover{
+    border-color: transparent;
+}
+
+
+.col-sm-6 h1{
+    color: white;
+}
+
+.col-sm-6 :placeholder-shown{
+    color: white;
 }
