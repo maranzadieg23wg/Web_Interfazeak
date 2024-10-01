@@ -1,3 +1,8 @@
+body{
+    background: rgb(202,188,154);
+    background: linear-gradient(90deg, rgba(202,188,154,1) 0%, rgba(82,96,91,1) 100%); 
+}
+
 .row{
     margin-top: 1rem;
     margin-left: 3rem;
