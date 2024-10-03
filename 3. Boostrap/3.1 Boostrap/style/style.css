@@ -8,6 +8,10 @@ body{
     margin-left: 3rem;
 }
 
+.col-sm-4 h1{
+    font-weight: bold;
+}
+
 .col-sm-4 img{
     margin-left: auto !important;
     margin-right: auto !important;
@@ -24,6 +28,10 @@ body{
 
 .nav-link{
     color: #596e6e;
+}
+
+.nav-link:hover{
+    color: #789e9e;
 }
 
 
@@ -56,4 +64,18 @@ body{
 
 .col-sm-6 :placeholder-shown{
     color: white;
+}
+
+.col-sm-6 p{
+    color: white;
+}
+
+
+.col-sm-12 h1{
+
+    margin-top: 3rem;
+
+    color: white;
+
+    text-align: center;
 }
