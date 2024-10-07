@@ -1,4 +1,6 @@
 :root{
+    /*SVG colors*/
+    /*https://codepen.io/sosuke/pen/Pjoqqp*/
     --color-primary: #5674ff;
     --color-ezkerreko: #111117;
     --color-eskubiko: #060608;
@@ -37,13 +39,16 @@ html, body {
     justify-content: center;
 
     text-decoration: none;
-    color: inherit;
+    
+
+    
+    color: rgb(255, 255, 255);
 }
-#menukoObjetuak a img{
+#menukoObjetuak a img {
     height: 25px;
     width: auto;
-    filter: brightness(0) saturate(100%) invert(1);
-    /*margin-right: 5px; */
+    filter: invert(100%) sepia(1%) saturate(0%) hue-rotate(184deg) brightness(114%) contrast(100%);    
+
 }
 
 #menukoObjetuak a p{
@@ -55,4 +60,9 @@ html, body {
 #menukoObjetuak a:focus p,
 #menukoObjetuak a:hover p {
     color: var(--color-primary);
+}
+
+#menukoObjetuak a:focus img,
+#menukoObjetuak a:hover img {
+    filter: invert(41%) sepia(72%) saturate(2083%) hue-rotate(214deg) brightness(97%) contrast(108%);
 }
