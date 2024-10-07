@@ -32,6 +32,22 @@ html, body {
 
 
 
+#logo{
+    height: 32px;
+    width: auto;
+
+    display: flex;
+    color: white;
+}
+
+#logo p{
+    color: white;
+
+    margin-left: 30%;
+
+    font-weight: bold;
+}
+
 
 
 #menukoObjetuak a {
