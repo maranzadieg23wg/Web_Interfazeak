@@ -1,0 +1,58 @@
+:root{
+    --color-primary: #5674ff;
+    --color-ezkerreko: #111117;
+    --color-eskubiko: #060608;
+    --color-artist: #1a1a21;
+}
+
+
+*{
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.container-fluid {
+    height: 100%;
+}
+
+
+#ezkerrekoMenua{
+    background-color: var(--color-eskubiko);
+}
+
+#eskubikoMenua{
+    background-color: var(--color-back);
+}
+
+
+
+
+#menukoObjetuak a{
+
+    display: flex;
+    justify-content: center;
+
+    text-decoration: none;
+    color: inherit;
+}
+#menukoObjetuak a img{
+    height: 25px;
+    width: auto;
+    filter: brightness(0) saturate(100%) invert(1);
+    /*margin-right: 5px; */
+}
+
+#menukoObjetuak a p{
+    color: white;
+
+    margin: 0;
+}
+
+#menukoObjetuak a:focus p,
+#menukoObjetuak a:hover p {
+    color: var(--color-primary);
+}
