@@ -23,37 +23,45 @@ html, body {
 
 
 #ezkerrekoMenua{
-    background-color: var(--color-eskubiko);
+    background-color: var(--color-ezkerreko);
 }
 
 #eskubikoMenua{
-    background-color: var(--color-back);
+    background-color: var(--color-ezkerreko);
 }
 
 
 
 
-#menukoObjetuak a{
 
+#menukoObjetuak a {
     display: flex;
-    justify-content: center;
-
+    align-items: center; 
+    /*justify-content: center;*/
+    padding: 10px;
     text-decoration: none;
-    
-
-    
     color: rgb(255, 255, 255);
 }
+
+#menukoObjetuak p{
+
+    margin-top: 3rem;
+
+    display: flex;
+    color: #94949f;
+    font-weight: bold;
+    justify-content: start;
+}
+
 #menukoObjetuak a img {
     height: 25px;
     width: auto;
-    filter: invert(100%) sepia(1%) saturate(0%) hue-rotate(184deg) brightness(114%) contrast(100%);    
-
+    margin-right: 8px; 
+    filter: invert(100%) sepia(1%) saturate(0%) hue-rotate(184deg) brightness(114%) contrast(100%);
 }
 
-#menukoObjetuak a p{
+#menukoObjetuak a p {
     color: white;
-
     margin: 0;
 }
 
@@ -65,4 +73,16 @@ html, body {
 #menukoObjetuak a:focus img,
 #menukoObjetuak a:hover img {
     filter: invert(41%) sepia(72%) saturate(2083%) hue-rotate(214deg) brightness(97%) contrast(108%);
+}
+
+@media (max-width: 768px) {
+    #menukoObjetuak a {
+        justify-content: flex-start; 
+        padding: 15px;
+        width: 100%; 
+    }
+    
+    #menukoObjetuak a img {
+        margin-right: 10px; 
+    }
 }
