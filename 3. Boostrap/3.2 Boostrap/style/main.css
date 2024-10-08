@@ -11,6 +11,7 @@
 
     --color-icon: invert(100%) sepia(1%) saturate(0%) hue-rotate(184deg) brightness(114%) contrast(100%);
     --color-icon-primary: invert(41%) sepia(72%) saturate(2083%) hue-rotate(214deg) brightness(97%) contrast(108%);
+    --color-white: invert(100%) sepia(100%) saturate(0%) hue-rotate(300deg) brightness(102%) contrast(103%);
 
 }
 
@@ -198,20 +199,53 @@ html, body {
 }
 
 .kantariak {
-    width: 100px;
+    width: 236px;
     height: auto;
     margin: 0 auto;
     max-height: 100%;
+
+    filter: grayscale(100%);
 }
 
 
 .machine {
+    color: white;
+
     display: flex;
     justify-content: space-between;
 }
 
 .machine-ezker {
     text-align: left;
+}
+
+.izena{
+    display: flex;
+    text-align: center;
+
+}
+
+.ilunago{
+    color: rgb(133, 133, 133);
+}
+.izena h3{
+    margin-right: 5%;
+}
+
+.botoiak{
+    text-align: end;
+}
+.botoiak .entzun{
+    background-color: var(--color-primary);
+    color: white;
+    
+    
+}
+
+.entzun img{
+    width: auto;
+    height: 32px;
+    filter: var(--color-icon);
 }
 
 
