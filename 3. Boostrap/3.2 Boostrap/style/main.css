@@ -205,8 +205,16 @@ html, body {
 }
 
 
-.machine{
+.machine {
     display: flex;
+    justify-content: space-between;
 }
+
+.machine-ezker {
+    text-align: left;
+}
+
+
+
 
 
