@@ -199,8 +199,8 @@ html, body {
 }
 
 .kantariak {
-    width: 236px;
-    height: auto;
+    width: 250px;
+    height: 300px;
     margin: 0 auto;
     max-height: 100%;
 
@@ -230,6 +230,7 @@ html, body {
 }
 .izena h3{
     margin-right: 5%;
+    white-space: nowrap;
 }
 
 .botoiak{
@@ -264,7 +265,9 @@ html, body {
     margin-bottom: 0;
 }
 
-#beheko h2{
+#beheko h2,
+#trending{
+    font-size: 20px;
     color: white;
     text-align: start;
 }
@@ -275,11 +278,25 @@ html, body {
 }
 
 
-#topArtis{
+
+#topArtis,
+#genres,
+#songs,
+#player {
     background-color: var(--color-artist);
     border-radius: 12px;
     padding: 1rem;
+    margin-bottom: 2rem;
 }
+
+#genres {
+    margin-right: 0rem;
+}
+
+
+
+
+
 
 
 .gen{
@@ -306,3 +323,9 @@ html, body {
 #sei{
     background-color: #C1CFA1;
 }
+
+.col-12 span {
+    color: white;
+}
+
+
