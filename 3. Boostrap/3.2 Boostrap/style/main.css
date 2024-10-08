@@ -248,11 +248,61 @@ html, body {
     filter: var(--color-icon);
 }
 
-
+#beheko{
+    margin-top: 10vh;
+}
 
 
 .artis img{
     width: 64px;
     height: 64px;
+    border-radius: 15%;
 }
 
+.artis p{
+    color: white;
+    margin-bottom: 0;
+}
+
+#beheko h2{
+    color: white;
+    text-align: start;
+}
+
+.artis h4,
+.artis h6 {
+    color: white;
+}
+
+
+#topArtis{
+    background-color: var(--color-artist);
+    border-radius: 12px;
+    padding: 1rem;
+}
+
+
+.gen{
+    
+    border-radius: 15px;
+    padding: 1rem;
+} 
+
+#bat{
+    background-color: #257180;
+}
+#bi{
+    background-color: #F2E5BF;
+}
+#hiru{
+    background-color: #FD8B51;
+}
+#lau{
+    background-color: #CB6040;
+}
+#bost{
+    background-color: #E7CCCC;
+}
+#sei{
+    background-color: #C1CFA1;
+}
