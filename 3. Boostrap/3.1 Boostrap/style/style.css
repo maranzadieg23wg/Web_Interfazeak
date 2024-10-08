@@ -1,4 +1,6 @@
 body{
+    margin: 0;
+    padding: 0;
     background: rgb(202,188,154);
     background: linear-gradient(90deg, rgba(202,188,154,1) 0%, rgba(82,96,91,1) 100%); 
 }
@@ -79,3 +81,4 @@ body{
 
     text-align: center;
 }
+
