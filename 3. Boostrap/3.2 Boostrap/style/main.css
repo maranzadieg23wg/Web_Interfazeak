@@ -329,3 +329,49 @@ html, body {
 }
 
 
+
+
+
+/* Ajustes para responsividad */
+
+@media (max-width: 1200px) {
+    #logo p {
+        margin-left: 10%;
+    }
+
+    #menukoObjetuak a {
+        padding: 12px; /* Ajusta el padding para pantallas más pequeñas */
+    }
+
+    #motak p {
+        padding-right: 1rem; /* Menos espacio en pantallas pequeñas */
+    }
+}
+
+@media (max-width: 768px) {
+    .machine {
+        flex-direction: column; /* Cambia la dirección del flex */
+    }
+
+    .kantariak {
+        width: 80%; /* Ajusta el ancho en pantallas más pequeñas */
+        height: auto; /* Permite que la altura se ajuste automáticamente */
+    }
+
+    #beheko h2,
+    #trending {
+        font-size: 18px; /* Ajusta el tamaño de fuente para pantallas más pequeñas */
+    }
+}
+
+/* Asegúrate de que las imágenes sean responsivas */
+.kantariak img,
+.artis img {
+    max-width: 100%; /* Imágenes no exceden el ancho del contenedor */
+    height: auto; /* Mantiene la proporción */
+}
+
+#user {
+    padding: 0.5rem; /* Espaciado más pequeño en pantallas pequeñas */
+}
+
