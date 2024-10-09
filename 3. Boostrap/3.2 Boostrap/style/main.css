@@ -380,3 +380,29 @@ html, body {
     padding: 0.5rem;
 }
 
+@media (max-width: 576px) {
+    #songs img {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 0.5rem;
+    }
+
+    #songs .tal {
+        font-size: 0.75rem;
+    }
+
+    #songs .d-flex {
+        justify-content: flex-start;
+    }
+
+    #songs span {
+        font-size: 0.875rem;
+    }
+}
+
+
+
+
+
+
+
