@@ -116,7 +116,7 @@ html, body {
 
 #motak{
     display: flex;
-    align-items: center; /* Alineación vertical */
+    align-items: center;
     justify-content: center;
 }
 
@@ -299,40 +299,45 @@ html, body {
 
 
 
-.gen{
-    
+.gen {
     border-radius: 15px;
     padding: 1rem;
-} 
-
-#bat{
-    background-color: #257180;
+    margin-bottom: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50px;
 }
-#bi{
+
+
+#bat {
+    background-color: #257180;
+    color: white;
+}
+#bi {
     background-color: #F2E5BF;
 }
-#hiru{
+#hiru {
     background-color: #FD8B51;
 }
-#lau{
+#lau {
     background-color: #CB6040;
+    color: white;
 }
-#bost{
+#bost {
     background-color: #E7CCCC;
 }
-#sei{
+#sei {
     background-color: #C1CFA1;
 }
 
-.col-12 span {
-    color: white;
-}
 
 
 
 
 
-/* Ajustes para responsividad */
+
 
 @media (max-width: 1200px) {
     #logo p {
@@ -340,38 +345,38 @@ html, body {
     }
 
     #menukoObjetuak a {
-        padding: 12px; /* Ajusta el padding para pantallas más pequeñas */
+        padding: 12px; 
     }
 
     #motak p {
-        padding-right: 1rem; /* Menos espacio en pantallas pequeñas */
+        padding-right: 1rem;
     }
 }
 
 @media (max-width: 768px) {
     .machine {
-        flex-direction: column; /* Cambia la dirección del flex */
+        flex-direction: column;
     }
 
     .kantariak {
-        width: 80%; /* Ajusta el ancho en pantallas más pequeñas */
-        height: auto; /* Permite que la altura se ajuste automáticamente */
+        width: 80%;
+        height: auto;
     }
 
     #beheko h2,
     #trending {
-        font-size: 18px; /* Ajusta el tamaño de fuente para pantallas más pequeñas */
+        font-size: 18px;
     }
 }
 
-/* Asegúrate de que las imágenes sean responsivas */
+
 .kantariak img,
 .artis img {
-    max-width: 100%; /* Imágenes no exceden el ancho del contenedor */
-    height: auto; /* Mantiene la proporción */
+    max-width: 100%;
+    height: auto;
 }
 
 #user {
-    padding: 0.5rem; /* Espaciado más pequeño en pantallas pequeñas */
+    padding: 0.5rem;
 }
 
