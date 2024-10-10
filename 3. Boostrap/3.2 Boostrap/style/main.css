@@ -112,6 +112,12 @@ html, body {
     #menukoObjetuak a img {
         margin-right: 10px; 
     }
+
+    #ezkerrekoMenua,
+    #eskubikoMenua
+    {
+        width: 100%;
+    }
 }
 
 
