@@ -23,20 +23,37 @@
 .explorBox{
     display: flex;
     flex-direction: row;
-    background-color: red;
+    border-radius: 15px;
 
     padding: 1.5rem;
 
     color: white;
 
     margin-top: 2vh;
+
+    text-decoration: none;
 }
 
-.explorBox span{
+.explorBox a{
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+
+    
+
+    color: white;
+
+    margin-top: 2vh;
+
+    text-decoration: none;
+}
+
+
+.explorBox a span{
     margin-right: 5%;
 }
 
-.explorBox img{
+.explorBox a img{
     width: 105px;
 }
 
@@ -110,8 +127,12 @@
     background-color: #E9967A;
 }
 
-#explorHemeretzi {
+#explorHemezortzi {
     background-color: #CD5C5C;
+}
+
+#explorHemeretzi {
+    background-color: #FF7256;
 }
 
 #explorHogei {
@@ -131,5 +152,5 @@
 }
 
 #explorHogeitaLau {
-    background-color: #FF8C00;
+    background-color: #FF6347;
 }
