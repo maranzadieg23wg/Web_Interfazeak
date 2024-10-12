@@ -1,5 +1,6 @@
 #albumContainer{
     margin-top: 4vh;
+    height: auto;
 }
 
 .album {
@@ -16,4 +17,25 @@
 }
 .album span{
     color: white;
+}
+
+
+.explorBox{
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+
+    padding: 1.5rem;
+
+    color: white;
+
+    margin-top: 2vh;
+}
+
+.explorBox span{
+    margin-right: 5%;
+}
+
+.explorBox img{
+    width: 105px;
 }
