@@ -432,3 +432,11 @@ footer {
     left: 0;
     width: 100%;
 }
+
+
+
+
+.botoiaAldatu:hover{
+    background-color: #9A1663;
+    border-color: #9A1663;
+}
