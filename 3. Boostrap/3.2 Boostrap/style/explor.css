@@ -12,6 +12,10 @@
     height: 100%;
 }
 
+.album a{
+    text-decoration: none;
+}
+
 .album img{
     width: 180px;
 }
