@@ -39,3 +39,97 @@
 .explorBox img{
     width: 105px;
 }
+
+
+
+#explorBat {
+    background-color: #FF6347;
+}
+
+#explorBi {
+    background-color: #FFA07A;
+}
+
+#explorHiru {
+    background-color: #FF4500;
+}
+
+#explorLau {
+    background-color: #FF8C00;
+}
+
+#explorBost {
+    background-color: #FFD700;
+}
+
+#explorSei {
+    background-color: #FFA500;
+}
+
+#explorZazpi {
+    background-color: #FF7F50;
+}
+
+#explorZortzi {
+    background-color: #F08080;
+}
+
+#explorBederatzi {
+    background-color: #FFB6C1;
+}
+
+#explorHamar {
+    background-color: #FF69B4;
+}
+
+#explorHamaika {
+    background-color: #DB7093;
+}
+
+#explorHamabi {
+    background-color: #FF1493;
+}
+
+#explorHamahiru {
+    background-color: #FF4500;
+}
+
+#explorHamalau {
+    background-color: #FF6347;
+}
+
+#explorHamabost {
+    background-color: #FFDAB9;
+}
+
+#explorHamasei {
+    background-color: #F4A460;
+}
+
+#explorHamazazpi {
+    background-color: #E9967A;
+}
+
+#explorHemeretzi {
+    background-color: #CD5C5C;
+}
+
+#explorHogei {
+    background-color: #DC143C;
+}
+
+#explorHogeitaBat {
+    background-color: #FF6347;
+}
+
+#explorHogeitaBi {
+    background-color: #FFA07A;
+}
+
+#explorHogeitaHiru {
+    background-color: #FF4500;
+}
+
+#explorHogeitaLau {
+    background-color: #FF8C00;
+}
