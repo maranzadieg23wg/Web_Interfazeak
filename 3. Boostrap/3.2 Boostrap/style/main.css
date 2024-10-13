@@ -440,3 +440,49 @@ footer {
     background-color: #9A1663;
     border-color: #9A1663;
 }
+
+
+
+
+
+
+
+form h2{
+    color: white;
+}
+.form-control {
+    background-color: #495057;
+    color: white;
+}
+.form-control::placeholder {
+    color: #ffffff;
+}
+.btn-primary {
+    margin-top: 10px;
+
+    margin-bottom: 32.2rem;
+}
+
+form label{
+    color: white;
+}
+
+.form-group{
+    width: 100%;
+}
+
+
+@media (max-width: 1920px) {
+    .btn-primary {
+        
+    
+        margin-bottom: 50rem;
+    }
+}
+@media (min-width: 1920px) {
+    .btn-primary {
+        
+    
+        margin-bottom: 50rem;
+    }
+}
