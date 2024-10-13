@@ -154,16 +154,20 @@ html, body {
     justify-content: center;
 }
 
-#saioa img{
-    width: auto;
+#saioa a{
+    margin-right: 3%;
+}
+
+.konfigurazioa{
+    width: 20px;
     height: 20px;
 
     filter: var(--color-icon);
 
-    margin-right: 3%;
+    
 }
 
-#saioa img:hover{
+.konfigurazioa:hover{
     
 
     filter: var(--color-icon-primary);
