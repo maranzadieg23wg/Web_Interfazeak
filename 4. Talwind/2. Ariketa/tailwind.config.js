@@ -2,7 +2,13 @@
 module.exports = {
   content: ["./src/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'fondo': '#f3f2f1',
+        'ertza': '#7C7C7C',
+        'navHover': '#FF6347',
+      },
+    },
   },
   plugins: [],
 }
