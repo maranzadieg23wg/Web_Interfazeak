@@ -572,6 +572,10 @@ video {
   margin: 2rem;
 }
 
+.m-7{
+  margin: 1.75rem;
+}
+
 .ml-2{
   margin-left: 0.5rem;
 }
@@ -650,6 +654,10 @@ video {
 
 .flex-col{
   flex-direction: column;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
 }
 
 .items-center{
@@ -749,6 +757,10 @@ video {
 }
 
 @media (min-width: 1024px){
+  .lg\:m-8{
+    margin: 2rem;
+  }
+
   .lg\:w-1\/5{
     width: 20%;
   }
@@ -757,12 +769,20 @@ video {
     width: 100%;
   }
 
+  .lg\:w-4\/5{
+    width: 80%;
+  }
+
   .lg\:flex-row{
     flex-direction: row;
   }
 
   .lg\:flex-col{
     flex-direction: column;
+  }
+
+  .lg\:flex-nowrap{
+    flex-wrap: nowrap;
   }
 
   .lg\:items-center{
