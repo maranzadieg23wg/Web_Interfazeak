@@ -5,7 +5,11 @@ module.exports = {
     extend: {
       fontFamily:{
         noto: ['Noto Sans', 'sans-serif'],
-      }
+      },
+      colors: {
+        'ezker': '#1c1c1e',
+        'aukeratuta': "#2b2b2d",
+      },
     },
   },
   plugins: [],
