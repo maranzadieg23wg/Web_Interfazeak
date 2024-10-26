@@ -608,6 +608,10 @@ video {
   margin-top: 1.5rem;
 }
 
+.mr-4{
+  margin-right: 1rem;
+}
+
 .flex{
   display: flex;
 }
@@ -654,6 +658,10 @@ video {
 
 .w-full{
   width: 100%;
+}
+
+.w-1\/4{
+  width: 25%;
 }
 
 .max-w-4xl{
@@ -835,12 +843,20 @@ video {
     margin-top: 0px;
   }
 
+  .lg\:mr-0{
+    margin-right: 0px;
+  }
+
   .lg\:w-1\/5{
     width: 20%;
   }
 
   .lg\:w-4\/5{
     width: 80%;
+  }
+
+  .lg\:w-1\/4{
+    width: 25%;
   }
 
   .lg\:flex-row{
