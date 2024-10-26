@@ -186,19 +186,37 @@
                 <!--Music Line-->
                 <p class="text-white font-noto font-bold text-2xl ml-8">Popular songs</p>
                 <div class="m-8">
+                        <!--First song-->
+                        <!-- 
+                        <div class="flex flex-col mt-3">
+                            <div class="flex flex-row justify-between items-center">
+                                IMG + text
+                                <div class="flex flex-row items-center">
+                                    <img src="../public/songs/baby.jpg" class="h-16 w-16 rounded-xl">
+                                    Text
+                                    <div class="flex flex-col ml-3">
+                                        <p class="text-white font-noto font-bold">Ratatatata</p>
+                                        <p class="text-white font-noto">Baby Metal</p>
+                                    </div>
+                                </div>
+                                <img src="../public/icons/play.svg" class="h-8 w-8 ">
+                            </div>
+                        </div>
+                    -->
+
                     <!--First song-->
                     <div class="flex flex-col mt-3">
                         <div class="flex flex-row justify-between items-center">
                             <!--IMG + text-->
                             <div class="flex flex-row items-center">
-                                <img src="../public/songs/baby.jpg" class="h-16 w-16 rounded-xl">
+                                <img src="../public/songs/linkin.jpg" class="h-16 w-16 rounded-xl">
                                 <!--Text-->
                                 <div class="flex flex-col ml-3">
-                                    <p class="text-white font-noto font-bold">Ratatatata</p>
-                                    <p class="text-white font-noto">Baby Metal</p>
+                                    <p class="text-white font-noto font-bold">The Emptiness Machine</p>
+                                    <p class="text-white font-noto">Linking Park</p>
                                 </div>
                             </div>
-                            <img src="../public/icons/play.svg" class="h-8 w-8 ">
+                            <img src="../public/icons/play.svg" class="h-8 w-8 cursor-pointer" onclick="toggleVideo('../public/mp4/machine.mp4')">
                         </div>
                     </div>
                     <!--Second song-->
@@ -213,7 +231,7 @@
                                     <p class="text-white font-noto">AC⚡DC</p>
                                 </div>
                             </div>
-                            <img src="../public/icons/play.svg" class="h-8 w-8 ">
+                            <img src="../public/icons/play.svg" class="h-8 w-8 cursor-pointer" onclick="toggleVideo('../public/mp4/acdc.mp4')">
                         </div>
                     </div>
 
@@ -222,14 +240,14 @@
                         <div class="flex flex-row justify-between items-center">
                             <!--IMG + text-->
                             <div class="flex flex-row items-center">
-                                <img src="../public/songs/stil.jpg" class="h-16 w-16 rounded-xl">
+                                <img src="../public/songs/fall.jpg" class="h-16 w-16 rounded-xl">
                                 <!--Text-->
                                 <div class="flex flex-col ml-3">
-                                    <p class="text-white font-noto font-bold">Feeling Sorry</p>
-                                    <p class="text-white font-noto">Paramore</p>
+                                    <p class="text-white font-noto font-bold">Phoenix</p>
+                                    <p class="text-white font-noto">Fall out Boy</p>
                                 </div>
                             </div>
-                            <img src="../public/icons/play.svg" class="h-8 w-8 ">
+                            <img src="../public/icons/play.svg" class="h-8 w-8 cursor-pointer" onclick="toggleVideo('../public/mp4/phoenix.mp4')">
                         </div>
                     </div>
                 </div>
@@ -237,6 +255,15 @@
                 
              </div>
             
+            <!-- Modal for video playback -->
+            <div id="videoModal" class="hidden fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50" onclick="closeModal(event)">
+                <div class="relative w-full max-w-4xl p-4">
+                <!-- Video (without controls or muted attribute) -->
+                <video id="videoPlayer" class="w-full max-h-screen" autoplay loop>
+                    <!-- The video source will be set dynamically in JavaScript -->
+                </video>
+                </div>
+            </div>
               
 
 
@@ -246,3 +273,30 @@
     
 </body>
 </html>
+
+<script>
+    function toggleVideo(videoSrc) {
+      const videoModal = document.getElementById("videoModal");
+      const videoPlayer = document.getElementById("videoPlayer");
+  
+      if (videoModal.classList.contains("hidden")) {
+        // Show modal and load the video
+        videoModal.classList.remove("hidden");
+        videoPlayer.src = videoSrc;
+        videoPlayer.play();
+      }
+    }
+  
+    function closeModal(event) {
+      const videoModal = document.getElementById("videoModal");
+      const videoPlayer = document.getElementById("videoPlayer");
+  
+      // Check if the click was outside the video element
+      if (event.target === videoModal) {
+        videoModal.classList.add("hidden");
+        videoPlayer.pause();
+        videoPlayer.currentTime = 0;
+        videoPlayer.src = "";  // Clear the source for the next load
+      }
+    }
+  </script>
