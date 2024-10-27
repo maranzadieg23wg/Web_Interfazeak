@@ -59,8 +59,29 @@
                 
             </div>
 
-            <!--First Line-->
+            <div class="relative h-72 w-full rounded-lg overflow-hidden bg-cover bg-center" style="background-image: url('../../public/library/energy.jpg');">
+                <!-- Overlay -->
+                <div class="absolute inset-0 bg-black bg-opacity-50 pointer-events-none"></div>
             
+                <!-- Content -->
+                <div class="relative z-10 flex flex-col justify-center h-full p-8 text-white">
+                    <!-- Text content -->
+                    <p class="text-lg font-semibold">Your Music</p>
+                    <h1 class="text-4xl font-bold mt-2">On Repeat</h1>
+                </div>
+            
+                <!-- Play button -->
+                <div class="absolute bottom-4 right-4 z-20">
+                    <button class="bg-purple-600 hover:bg-purple-700 p-4 rounded-full shadow-lg transition duration-300 group" onclick="toggleVideo('../../public/mp4/Phoenix.mp4')">
+                        <!-- Icono de Play -->
+                        <img src="../../public/icons/play.svg" class="h-8 w-8 cursor-pointer transform transition-transform duration-300 group-hover:scale-110" alt="Play Icon">
+                    </button>
+                </div>
+            </div>
+            
+            
+
+            <!--First Line-->
             <div class="flex flex-wrap justify-center m-8">
                 <!-- Lehenengo lerroa -->
                 <div class="flex flex-col lg:flex-row lg:justify-between w-full">
