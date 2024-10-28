@@ -22,7 +22,7 @@
             </div>
                       
             <!-- Find Button -->
-            <div class="flex flex-row w-full items-center justify-center lg:justify-start lg:pl-10 p-4 group hover:bg-aukeratuta transition duration-300">
+            <div class="flex flex-row w-full items-center justify-center lg:justify-start lg:pl-10 p-4 group bg-aukeratuta transition duration-300">
                 <a href="./search.html" class="flex items-center w-full justify-center lg:justify-start">
                     <div class="relative group"> 
                         <img src="../../public/icons/find.svg" class="h-8 w-8 cursor-pointer transform transition-transform duration-300 scale-100 group-hover:scale-110">
@@ -32,7 +32,7 @@
             </div>
         
             <!-- Library Button -->
-            <div class="flex flex-row w-full items-center justify-center lg:justify-start lg:pl-10 p-4 group bg-aukeratuta transition duration-300">
+            <div class="flex flex-row w-full items-center justify-center lg:justify-start lg:pl-10 p-4 group hover:bg-aukeratuta transition duration-300">
                 <a href="./library.html" class="flex items-center w-full justify-center lg:justify-start">
                     <div class="relative group"> 
                         <img src="../../public/icons/library.svg" class="h-8 w-8 cursor-pointer transform transition-transform duration-300 scale-100 group-hover:scale-110">
@@ -49,7 +49,9 @@
         <div class="flex flex-col bg-black lg:w-4/5">
             <!--Menu-->
             <div class="flex flex-row justify-between lg:justify-between p-9">
-                <p class="text-white font-noto font-bold text-2xl ml-8">Your Library</p>
+                <!--Insertar buscador-->
+                <p class="text-white font-noto font-bold">Recent Search</p>
+                
 
                 <!--User-->
                 <div class="flex flex-row">
@@ -59,30 +61,94 @@
                 
             </div>
 
-            <div class="relative h-72 w-full rounded-lg overflow-hidden bg-cover bg-center" style="background-image: url('../../public/library/energy.jpg');">
-                <!-- Overlay -->
-                <div class="absolute inset-0 bg-black bg-opacity-50 pointer-events-none"></div>
             
-                <!-- Content -->
-                <div class="relative z-10 flex flex-col justify-center h-full p-8 text-white">
-                    <!-- Text content -->
-                    <p class="text-lg font-semibold">Your Music</p>
-                    <h1 class="text-4xl font-bold mt-2">On Repeat</h1>
-                </div>
-            
-                <!-- Play button -->
-                <div class="absolute bottom-4 right-4 z-20">
-                    <button class="bg-purple-600 hover:bg-purple-700 p-4 rounded-full shadow-lg transition duration-300 group" onclick="toggleVideo('../../public/mp4/Phoenix.mp4')">
-                        <!-- Icono de Play -->
-                        <img src="../../public/icons/play.svg" class="h-8 w-8 cursor-pointer transform transition-transform duration-300 group-hover:scale-110" alt="Play Icon">
-                    </button>
-                </div>
-            </div>
             
             
 
+            
+
+
+
+
+
+            <!--Music Line-->
+            <p class="text-white font-noto font-bold text-2xl ml-8">Recent Search</p>
+            <div class="m-8">
+                <!--First song-->
+                <!-- 
+                    <div class="flex flex-col mt-3">
+                        <div class="flex flex-row justify-between items-center">
+                            IMG + text
+                            <div class="flex flex-row items-center">
+                                <img src="../public/songs/baby.jpg" class="h-16 w-16 rounded-xl">
+                                Text
+                                <div class="flex flex-col ml-3">
+                                    <p class="text-white font-noto font-bold">Ratatatata</p>
+                                    <p class="text-white font-noto">Baby Metal</p>
+                                    </div>
+                                </div>
+                                <img src="../public/icons/play.svg" class="h-8 w-8 ">
+                            </div>
+                        </div>
+                    -->
+
+                <!--First song-->
+                <div class="flex flex-col mt-3 ">
+                    <div class="flex flex-row justify-between items-center">
+                        <!-- IMG + text -->
+                        <div class="flex flex-row items-center">
+                            <img src="../../public/songs/linkin.jpg" class="h-16 w-16 rounded-xl">
+                            <!-- Text -->
+                            <div class="flex flex-col ml-3">
+                                <p class="text-white font-noto font-bold">The Emptiness Machine</p>
+                                <p class="text-white font-noto">Linkin Park</p>
+                            </div>
+                        </div>
+                        <div class="group">
+                            <img src="../../public/icons/play.svg" class="h-8 w-8 cursor-pointer transform transition-transform duration-300 group-hover:scale-110" onclick="toggleVideo('../public/mp4/machine.mp4')">
+                        </div>
+                    </div>
+                </div>
+                
+                <!--Second song-->
+                <div class="flex flex-col mt-3">
+                    <div class="flex flex-row justify-between items-center">
+                        <!--IMG + text-->
+                        <div class="flex flex-row items-center">
+                            <img src="../../public/songs/acdc.jpg" class="h-16 w-16 rounded-xl">
+                            <!--Text-->
+                            <div class="flex flex-col ml-3">
+                                <p class="text-white font-noto font-bold">Rock 'n' Roll Train</p>
+                                <p class="text-white font-noto">AC⚡DC</p>
+                            </div>
+                        </div>
+                        <div class="group">
+                            <img src="../../public/icons/play.svg" class="h-8 w-8 cursor-pointer transform transition-transform duration-300 group-hover:scale-110" onclick="toggleVideo('../public/mp4/acdc.mp4')">
+                        </div>                        </div>
+                </div>
+
+                <!--third song-->
+                <div class="flex flex-col mt-3">
+                    <div class="flex flex-row justify-between items-center">
+                        <!--IMG + text-->
+                        <div class="flex flex-row items-center">
+                            <img src="../../public/songs/fall.jpg" class="h-16 w-16 rounded-xl">
+                            <!--Text-->
+                            <div class="flex flex-col ml-3">
+                                <p class="text-white font-noto font-bold">Phoenix</p>
+                                <p class="text-white font-noto">Fall out Boy</p>
+                            </div>
+                        </div>
+                        <div class="group">
+                            <img src="../../public/icons/play.svg" class="h-8 w-8 cursor-pointer transform transition-transform duration-300 group-hover:scale-110" onclick="toggleVideo('../public/mp4/Phoenix.mp4')">
+                        </div>                        
+                    </div>
+                </div>
+            </div>
+
+            <p class="text-white font-noto font-bold text-2xl ml-8 mt-8">Recent Search</p>
             <!--First Line-->
-            <div class="flex flex-wrap justify-center m-8">
+            <div class="flex flex-wrap justify-center m-8 pb-8">
                 <!-- Lehenengo lerroa -->
                 <div class="flex flex-col lg:flex-row lg:justify-between w-full">
 
@@ -181,65 +247,21 @@
                     </a>
                 </div>
             
-                <!-- Tercera fila -->
-                <div class="flex flex-col lg:flex-row lg:justify-between w-full">
-                    <!-- 1 image -->
-                    <a href="#" class="relative w-full lg:w-1/4 h-36 rounded-lg overflow-hidden mr-4 mt-6 cursor-pointer group">
-                        <!-- Irudia -->
-                        <img src="../../public/library/focus.jpg" alt="Study" class="absolute inset-0 w-full h-full object-cover transform transition-transform duration-300 group-hover:scale-110">
-
-                        <!-- Textua -->
-                        <div class="relative flex flex-col justify-center items-center h-full text-white text-center">
-                            <p class="text-2xl font-bold font-noto">Focus</p>
-                        </div>
-                    </a>
-            
-                    <!-- 2 image -->
-                    <a href="#" class="relative w-full lg:w-1/4 h-36 rounded-lg overflow-hidden mr-4 mt-6 cursor-pointer group">
-                        <!-- Irudia -->
-                        <img src="../../public/library/beach.jpg" alt="Study" class="absolute inset-0 w-full h-full object-cover transform transition-transform duration-300 group-hover:scale-110">
-                        
-                        <!-- Textua -->
-                        <div class="relative flex flex-col justify-center items-center h-full text-white text-center">
-                            
-                            <p class="text-2xl font-bold font-noto">Chill</p>
-                        </div>
-                    </a>
-            
-                    <!-- 3 image -->
-                    <a href="#" class="relative w-full lg:w-1/4 h-36 rounded-lg overflow-hidden mr-4 mt-6 cursor-pointer group">
-                        <!-- Irudia -->
-                        <img src="../../public/library/80.jpg" alt="Study" class="absolute inset-0 w-full h-full object-cover transform transition-transform duration-300 group-hover:scale-110">
-                        
-                        <!-- Textua -->
-                        <div class="relative flex flex-col justify-center items-center h-full text-white text-center">
-                            
-                            <p class="text-2xl font-bold font-noto">80s Hits</p>
-                        </div>
-                    </a>
-            
-                    <!-- 4 image -->
-                    <a href="#" class="relative w-full lg:w-1/4 h-36 rounded-lg overflow-hidden mr-4 mt-6 cursor-pointer group">
-                        <!-- Irudia -->
-                        <img src="../../public/library/techno.jpg" alt="Study" class="absolute inset-0 w-full h-full object-cover transform transition-transform duration-300 group-hover:scale-110">
-                        
-                        <!-- Textua -->
-                        <div class="relative flex flex-col justify-center items-center h-full text-white text-center">
-                            <p class="text-2xl font-bold font-noto">Techno</p>
-                        </div>
-                    </a>
-                </div>
-
 
                 
             </div>
-            
-
+             
+                
             <!--Footer-->
             <div>
                 <p class="text-white text-center">©2024 Manex Aranzadi Egaña</p>
             </div>
 
+        </div>
+            
+
+           
+
             
 
 
@@ -248,18 +270,18 @@
 
                 
             
-            <!-- Modal for video playback -->
-            <div id="videoModal" class="hidden fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50" onclick="closeModal(event)">
-                <div class="relative w-full max-w-4xl p-4">
-                    <!-- Video (without controls or muted attribute) -->
-                    <video id="videoPlayer" class="w-full max-h-screen" autoplay loop>
-                        <!-- The video source will be set dynamically in JavaScript -->
-                </video>
-                </div>
+        <!-- Modal for video playback -->
+        <div id="videoModal" class="hidden fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50" onclick="closeModal(event)">
+            <div class="relative w-full max-w-4xl p-4">
+                <!-- Video (without controls or muted attribute) -->
+                <video id="videoPlayer" class="w-full max-h-screen" autoplay loop>
+                    <!-- The video source will be set dynamically in JavaScript -->
+            </video>
             </div>
-              
         </div>
+              
     </div>
+</div>
     
 </body>
 </html>
