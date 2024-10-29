@@ -258,48 +258,12 @@
             </div>
 
         </div>
-            
-
-           
-
-            
+          
+        
 
 
-
-
-
-                
-            
-              
     </div>
 </div>
     
 </body>
 </html>
-
-<script>
-    function toggleVideo(videoSrc) {
-      const videoModal = document.getElementById("videoModal");
-      const videoPlayer = document.getElementById("videoPlayer");
-  
-      if (videoModal.classList.contains("hidden")) {
-        
-        videoModal.classList.remove("hidden");
-        videoPlayer.src = videoSrc;
-        videoPlayer.play();
-      }
-    }
-  
-    function closeModal(event) {
-      const videoModal = document.getElementById("videoModal");
-      const videoPlayer = document.getElementById("videoPlayer");
-  
-      
-      if (event.target === videoModal) {
-        videoModal.classList.add("hidden");
-        videoPlayer.pause();
-        videoPlayer.currentTime = 0;
-        videoPlayer.src = "";  
-      }
-    }
-  </script>
