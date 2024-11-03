@@ -129,7 +129,6 @@
                     progressBar.style.width = `${progress}%`;
                 }
             
-                // Añadir eventos de cambio a los campos del formulario
                 document.querySelectorAll("#contactForm input, #contactForm select, #contactForm textarea").forEach(input => {
                     input.addEventListener("input", updateProgress);
                 });
