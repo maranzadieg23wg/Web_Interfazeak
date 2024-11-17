@@ -1,0 +1,28 @@
+body{
+    background: rgb(251,255,214);
+background: linear-gradient(90deg, rgba(251,255,214,1) 0%, rgba(0,162,121,1) 100%);
+}
+#logo{
+    border-radius: 100%;
+    height: auto;
+    width: 40px;
+}
+
+
+
+#navMenu{
+    display: flex;
+    flex-direction: row;
+    list-style: none;    
+
+}
+
+#navMenu li{
+    margin-right: 15%;
+}
+
+#botoia{
+    background-color: gray;
+
+    border: none;
+}
