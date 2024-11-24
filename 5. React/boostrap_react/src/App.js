@@ -1,7 +1,10 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css';
 
 import Header from './header';
 import Menu from './menu';
+import Body from './body/body';
+import Footer from './footer';
 
 
 function App() {
@@ -9,7 +12,8 @@ function App() {
     <div className="App container">
       <Header />
       <Menu />
-
+      <Body />
+      <Footer />
     </div>
   );
 }
