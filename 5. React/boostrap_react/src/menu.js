@@ -11,19 +11,19 @@ function Menu() {
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Inicio</a>
+                        <a class="nav-link" href="javascript:void(0)">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Quienes</a>
+                        <a class="nav-link" href="javascript:void(0)">Quienes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Cursos</a>
+                        <a class="nav-link" href="javascript:void(0)">Cursos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Situación</a>
+                        <a class="nav-link" href="javascript:void(0)">Situación</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contacto</a>
+                        <a class="nav-link" href="javascript:void(0)">Contacto</a>
                     </li>
                 </ul>
             </div>
