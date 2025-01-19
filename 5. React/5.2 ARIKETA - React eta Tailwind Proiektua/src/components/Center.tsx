@@ -1,15 +1,19 @@
 import Menu from "./menu/Menu"
-import Body from "./body/Body"
+import AllBody from "./body/AllBody"
 import Footer from "./footer/Footer"
 
 function Center() {
 
     return (
       <div className=" h-screen flex justify-center items-center">
-        <div className="bg-blue-200 size-9/12">
-          <Menu />
-          <Body />
-          <Footer />
+        <div className="size-9/12">
+          
+          <div className="p-10">
+            <Menu />
+            <AllBody />
+            <Footer />
+          </div>
+          
         </div>
         
       </div>

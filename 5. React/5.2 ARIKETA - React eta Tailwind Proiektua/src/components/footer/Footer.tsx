@@ -1,10 +1,10 @@
-
+import { ArticlesContainer } from "./ArticlesContainer"
 
 function Footer() {
 
     return (
-      <div>
-        <h1>Footer</h1>
+      <div className="mt-20">
+        <ArticlesContainer />
       </div>
 
     )
