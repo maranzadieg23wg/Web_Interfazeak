@@ -14,7 +14,7 @@
         <img src="./img/logo.jpg">
       </div>
       <div class="flex items-center justify-center">
-        <ul class="flex sm:flex-row flex-col sm:space-x-6 flex-wrap justify-end">
+        <ul class="flex sm:flex-row flex-col sm:space-x-6 flex-wrap justify-end divide-y sm:divide-y-0 w-full">
           <li class="hover:bg-primary p-1 text-center"><a href="#">Inicio</a></li>
           <li class="hover:bg-primary p-1 text-center"><a href="#">Nosotros</a></li>
           <li class="hover:bg-primary p-1 text-center"><a href="#">Servicios</a></li>
@@ -26,8 +26,8 @@
     </div>
 
     <!-- Body -->
-     <div class="flex sm:flex-row flex-col items-center sm:items-start h-auto" style="">
-      <div class="p-4 sm:w-4/12 w-full bg-slate-300 h-full">
+     <div class="flex sm:flex-row flex-col justify-center">
+      <div class="p-4 sm:w-4/12 sm:flex-1 mx-auto bg-slate-300  ">
         <h1 class="text-center text-2xl font-bold">Colum1</h1>
         <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipiscing elit, conubia
           euismod proin semper suspendisse vitae, nisl nascetur dignissim tempor
@@ -40,14 +40,14 @@
           pellentesque feugiat, commodo natoque vitae at nam ante, hac tristique
           ullamcorper sed</p>
       </div>
-      <div class="p-4 sm:w-4/12 w-full bg-slate-400 h-full">
+      <div class="p-4 sm:w-4/12 sm:flex-1 mx-auto bg-slate-500  ">
         <h1 class="text-center text-2xl font-bold">Colum2</h1>
         <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
           commodo consequat</p>
       </div>
-      <div style="width: 300px" class="p-4 flex items-center flex-col space-y-5 bg-gorria h-full w-full">
+      <div class="p-4 w-[300px]  mx-auto bg-gorria">
         <h1 class="text-center text-2xl font-bold">Imágenes</h1>
         <img src="./img/imagen.jpg" class="w-56">
         <h1 class="text-center text-2xl font-bold">Video</h1>
@@ -61,8 +61,8 @@
      <!-- CURSOS -->
 
       <p class="text-center text-2xl font-bold p-8">CURSOS</p>
-      <div class="grid grid-rows-3 sm:grid-cols-3 md:gap-3 gap-1 justify-center h-96">
-        <div class="border border-slate-500 h-[86%]">
+      <div class="grid sm:grid-cols-3 md:gap-3 gap-1 justify-center ">
+        <div class="border border-slate-500">
           <img src="./img/curso1.jpg" class="w-96 h-56">
           <div class="p-4">
             <p class="text-xl">Curso1</p>
@@ -105,10 +105,10 @@
 
       <!-- FOOTER -->
 
-      <div>
-        <p>Escribe tu correo para recibir informacion</p>
+      <div class="text-center bg-primary mt-6 text-sm sm:text-base">
+        <p class="text-xl font-bold">Escribe tu correo para recibir informacion</p>
         <div>
-          <input type="checkbox"> Quiero recibir de lasnoticias
+          <input type="checkbox"> Quiero recibir de las noticias
         </div>
         <div>
           e-correo: <input type="text">
@@ -116,7 +116,7 @@
         <div>
           <input type="checkbox"> He leido la normativa
         </div>
-        <button>Enviar</button>
+        <button class="rounded bg-yellow-200">Enviar</button>
       </div>
 
 
