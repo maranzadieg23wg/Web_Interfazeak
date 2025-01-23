@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="./output.css" rel="stylesheet"> 
 </head>
-<body class="flex justify-center">
+<body class="flex justify-center text-lg sm:text-base">
 
     <div style="width: 1024px" >
         
@@ -16,15 +16,109 @@
             </div>
             <div class="flex items-center justify-center">
               <ul class="flex sm:flex-row flex-col sm:space-x-6 flex-wrap justify-end divide-y sm:divide-y-0 w-full">
-                <li class="hover:bg-primary p-1 text-center"><a href="#">Inicio</a></li>
-                <li class="hover:bg-primary p-1 text-center"><a href="#">Nosotros</a></li>
-                <li class="hover:bg-primary p-1 text-center"><a href="#">Servicios</a></li>
-                <li class="hover:bg-primary p-1 text-center"><a href="#">Contacto</a></li>
-                <li class="hover:bg-primary p-1 text-center"><a href="#">Tienda Virtual</a></li>
-                <li class="hover:bg-primary p-1 text-center"><a href="#">Asistencia</a></li>
+                <li class="hover:bg-primary p-2 text-center hover:bg-urdinFooter hover:text-white"><a href="#">Inicio</a></li>
+                <li class="hover:bg-primary p-2 text-center hover:bg-urdinFooter hover:text-white"><a href="#">Nosotros</a></li>
+                <li class="hover:bg-primary p-2 text-center hover:bg-urdinFooter hover:text-white"><a href="#">Servicios</a></li>
+                <li class="hover:bg-primary p-2 text-center hover:bg-urdinFooter hover:text-white"><a href="#">Contacto</a></li>
+                <li class="hover:bg-primary p-2 text-center hover:bg-urdinFooter hover:text-white"><a href="#">Tienda Virtual</a></li>
+                <li class="hover:bg-primary p-2 text-center hover:bg-urdinFooter hover:text-white"><a href="#">Asistencia</a></li>
               </ul>
             </div>
-          </div>
+        </div>
+
+
+        <!-- Body -->
+        <div class="flex sm:flex-row flex-col justify-center">
+            <div class="p-4 sm:w-4/12 sm:flex-1 mx-auto bg-gray-500  ">
+            <h1 class="text-center text-2xl font-bold">Colum 1</h1>
+            <p class="text-justify">Lorem ipsum dolor sit amet consectetur adipiscing elit, conubia
+                euismod proin semper suspendisse vitae, nisl nascetur dignissim tempor
+                pretium vestibulum. Nostra blandit habitant nullam placerat et vestibulum
+                luctus aliquam curae tellus, est dui vel nascetur facilisis sapien sed mi nulla
+                sodales, aenean posuere auctor sollicitudin condimentum lobortis feugiat
+                ultrices commodo. Per habitant senectus vel dapibus sollicitudin himenaeos
+                luctus nulla tristique nibh ornare curabitur, platea cras in volutpat vehicula
+                ridiculus phasellus tortor mattis placerat. Consequat curae egestas nunc
+                pellentesque feugiat, commodo natoque vitae at nam ante, hac tristique
+                ullamcorper sed</p>
+            </div>
+            <div class="p-4 sm:w-4/12 sm:flex-1 mx-auto bg-gray-300  ">
+            <h1 class="text-center text-2xl font-bold">Colum 2</h1>
+            <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                commodo consequat</p>
+            </div>
+            <div class="p-4 sm:w-[300px] w-full  mx-auto bg-gorria flex flex-col items-center gap-8">
+            <h1 class="text-center text-2xl font-bold">Imágenes</h1>
+            <img src="./img/imagen.jpg" class="w-56">
+            <h1 class="text-center text-2xl font-bold">Video</h1>
+            <video width="300" height="200" controls>
+                <source src="./img/electronica_etica.mp4" type="video/mp4">
+                Your browser does not support the video tag.</video>
+            </div>
+        </div>
+        <!-- CURSOS -->
+
+        <p class="text-center text-2xl font-bold p-8">CURSOS</p>
+        <div class="grid sm:grid-cols-3 md:gap-3 gap-1 justify-center ">
+        <div class="border border-slate-500">
+            <img src="./img/curso1.jpg" class="w-96 h-56">
+            <div class="p-4">
+                <p class="text-xl font-bold">Curso1</p>
+                <p>Autor</p>
+                <img src="./img/estrellas.png" class="w-20">
+                <p class="">Precio</p>
+                <div class="flex justify-center bg-karrotxo p-1 text-white hover:text-black hover:font-bold">
+                    <button href="#">Agregar al carrito</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="border border-slate-500">
+            <img src="./img/curso2.jpg" class="w-96 h-56">
+            <div class="p-4">
+                <p class="text-xl font-bold">Curso2</p>
+                <p>Autor</p>
+                <img src="./img/estrellas.png" class="w-20">
+                <p>Precio</p>
+                <div class="flex justify-center bg-karrotxo p-1 text-white hover:text-black hover:font-bold">
+                    <button href="#">Agregar al carrito</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="border border-slate-500">
+            <img src="./img/curso3.jpg" class="w-96 h-56">
+            <div class="p-4">
+                <p class="text-xl font-bold">Curso3</p>
+                <p>Autor</p>
+                <img src="./img/estrellas.png" class="w-20">
+                <p>Precio</p>
+                <div class="flex justify-center bg-karrotxo p-1 text-white hover:text-black hover:font-bold">
+                    <button href="#">Agregar al carrito</button>
+                </div>
+            </div>
+        </div>
+        </div>
+    
+        <!-- FOOTER -->
+
+        <div class="text-center bg-urdinFooter mt-6 ">
+            <p class="text-xl font-bold">Escribe tu correo para recibir informacion</p>
+            <div>
+            <input type="checkbox"> Quiero recibir de las noticias
+            </div>
+            <div>
+            e-correo: <input type="text">
+            </div>
+            <div>
+            <input type="checkbox"> He leido la normativa
+            </div>
+            <button class="rounded bg-gray-300 ">Enviar</button>
+        </div>
+    
+        
 
 
 
